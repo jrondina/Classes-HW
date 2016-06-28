@@ -24,8 +24,8 @@ public class Main {
 
         mainUser.addPlaylists(rock);
         mainUser.addPlaylists(other);
-        
-        mainUser.getPlaylistByName();
+
+        mainUser.getPlaylistByName("Rock");
 
         rock.playAll();
         other.playAll();
